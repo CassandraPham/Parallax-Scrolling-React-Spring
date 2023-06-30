@@ -1,0 +1,208 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+p {
+  text-align: justify;
+}
+
+.float-left {
+  float: left;
+  margin: 10px;
+}
+
+@media screen and (max-width: 1100px) {
+  .container {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+
+/* Parallax */
+
+.animation {
+  display: block;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.animation_layer {
+  position: absolute;
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* WitchPage */
+
+#sky-background {
+  background-image: url(./images/starry_night.jpg);
+}
+
+#trees-behind {
+  background-image: url(./images/forest_far.png);
+}
+
+#clouds {
+  background-image: url(./images/cloud_4-removebg.png);
+  background-position-x: left;
+}
+
+#moon {
+  background-image: url(./images/moon.png);
+  background-size: 35%;
+  background-position-x: right;
+  background-position-y: 20vh;
+}
+
+#trees {
+  background-image: url(./images/forest.png);
+}
+
+#witch {
+  background-image: url(./images/witch_cat.png);
+  background-size: 20%;
+  position: absolute;
+  left: 55vw;
+  background-position-y: 40vh;
+}
+
+#bats {
+  background-image: url(./images/bats.png);
+  background-size: 20%;
+  background-position-x: 20%;
+  background-position-y: 80%;
+}
+
+/* Witch Page Text */
+
+#textblock {
+  background-color: rgb(42, 37, 74);
+  height: 100vh;
+}
+
+#textblock-container {
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+
+#textblock-title {
+  color: #92a3c9;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: "Helvetica Neue";
+  text-align: center;
+}
+
+#textblock-content {
+  color: #92a3c9;
+  font-size: medium;
+}
+
+#textblock-footer {
+  color: #929ac9;
+  font-size: 15px;
+  font-weight: 400;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+
+}
+
+
+/* Helicopter Page */
+
+#white-cloud {
+  background-image: url(./images/white_cloud.png);
+  background-repeat: no-repeat;
+}
+
+#pink-cloud {
+  background-image: url(./images/pink_cloud.png);
+  background-position: right;
+}
+
+#blue-cloud {
+  background-image: url(./images/blue_clouds.jpg);
+  background-size: 70%;
+}
+
+#landspot {
+  background-image: url(./images/landspot1_resized.png);
+  background-position: center;
+}
+
+
+#helicopter {
+  background-position: center;
+}
+
+/* Helicopter Page Text */
+
+.helicopter-title {
+  color: white;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  font: 1.3rem;
+  text-align: center;
+  position: absolute;
+  left: 50vw;
+  transform: translateX(-50%);
+}
+
+.helicopter-textblock {
+  background-color: transparent;
+  position: absolute;
+  width: 40%;
+  margin: 20px;
+}
+
+#helicopter-text {
+  color: #5795c9;
+  font-size: medium;
+
+}
+
+#right-box {
+  position: absolute;
+  right: 20px;
+}
