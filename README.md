@@ -1,6 +1,7 @@
 # Parallax Scrolling and animation using React Spring
 
 Welcome to my tech demo!
+This project represents a self-directed initiative where I researched and acquired practical experience with the React Spring library. I designed and developed a web application that effectively showcases parallax scrolling and simple animation that could enhance the user browsing experience.
 
 ## I.	Starting the project
 In the root directory (the folder where the Readme file is), open a terminal and run the following command to install all dependencies:
